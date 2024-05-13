@@ -37,7 +37,7 @@ public class MineSweeper {
     private int tilesClicked = 0;
     private boolean gameOver;
     private int minesCount = 10;
-    private boolean lostGame;
+    private Boolean lostGame = null;
     private boolean levelsEnabled;
 
     {
@@ -72,19 +72,19 @@ public class MineSweeper {
 
     private void restartGame() {
         if (levelsEnabled) {
-            if (lostGame) {
+            if (lostGame != null && lostGame) {
                 // if you lose - go to the previous level
                 if (minesCount > 2) {
                     minesCount--;
                 }
-            } else {
+            } else if (lostGame != null) {
                 // if you win - go to the next level
                 if (minesCount < 64) {
                     minesCount++;
                 }
             }
         }
-        lostGame = false;
+        lostGame = null;
         tilesClicked = ZERO;
         gameOver = false;
         textLabel.setText(GAME_NAME + SEPARATOR + minesCount + " mines");
