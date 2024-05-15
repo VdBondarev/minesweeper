@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4c1cfdc-c863-4cac-9e36-824c789e9400" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mine/sweeper/holder/ConstantsHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mine/sweeper/config/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mine/sweeper/config/TextLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mine/sweeper/config/TextPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mine/sweeper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mine/sweeper/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mine/sweeper/minesweeper/CustomMouseAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mine/sweeper/holder/ConstantsHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mine/sweeper/holder/ConstantsHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mine/sweeper/minesweeper/MineSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mine/sweeper/minesweeper/MineSweeper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,17 +20,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2gOpsdgqFA2i6lyDul5X62RnMHX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "fixing__some__issues",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vladbondarev/my_projects/PROJECTS/minesweeper",
     "node.js.detected.package.eslint": "true",
@@ -68,7 +72,7 @@
       <module name="minesweeper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mine.sweeper.minesweeper.*" />
+          <option name="PATTERN" value="mine.sweeper.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715578686742</updated>
       <workItem from="1715578688335" duration="13183000" />
+      <workItem from="1715749811221" duration="2701000" />
     </task>
     <servers />
   </component>

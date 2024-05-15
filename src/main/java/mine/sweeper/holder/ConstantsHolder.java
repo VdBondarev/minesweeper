@@ -14,6 +14,6 @@ public interface ConstantsHolder {
     int ZERO = 0;
     String BOMB_IMAGE = "💣";
     int ONE = 1;
-    int FOURTY_FIVE = 45;
-    String SEPARATOR = " - ";
+    int FORTY_FIVE = 45;
+    String DASH_SEPARATOR = " - ";
 }
